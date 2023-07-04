@@ -1,0 +1,70 @@
+<?php
+if (isset($_SESSION['msgErroLogin'])) {
+    $msgErroLogin = $_SESSION['msgErroLogin'];
+    unset($_SESSION['msgErroLogin']);
+}
+?>
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Escola HKeller - Cães Guia</title>
+    <meta name="twitter:image" content="/assets/img/logos/logo.svg">
+    <meta name="twitter:description" content="Apoio, e inclusão social com cães guia, cães de apoio emocional, de terapia assistida e de companhia.">
+    <meta name="description" content="Apoio, e inclusão social com cães guia, cães de apoio emocional, de terapia assistida e de companhia.">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Escola HKeller">
+    <link rel="apple-touch-icon" type="image/svg+xml" sizes="180x180" href="/assets/img/logos/logo180.svg">
+    <link rel="icon" type="image/svg+xml" sizes="16x16" href="/assets/img/logos/logo16.svg">
+    <link rel="icon" type="image/svg+xml" sizes="32x32" href="/assets/img/logos/logo32.svg">
+    <link rel="icon" type="image/svg+xml" sizes="180x180" href="/assets/img/logos/logo180.svg">
+    <link rel="icon" type="image/svg+xml" sizes="192x192" href="/assets/img/logos/logo192.svg">
+    <link rel="icon" type="image/svg+xml" sizes="512x512" href="/assets/img/logos/logo512.svg">
+    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/styles.min.css">
+</head>
+
+<body style="background: #1a392d;color: #94c21c;">
+    <nav class="navbar navbar-dark navbar-expand-md py-3" style="background: #326d56;">
+        <div class="container"><a class="navbar-brand d-flex align-items-center" href="/index.php" style="color: #94c21c;"><span class="bs-icon-md bs-icon-circle bs-icon-primary d-flex justify-content-center align-items-center me-2 bs-icon" style="background: #134330;color: rgb(255, 255, 255);"><img src="/assets/img/logos/logo32.svg"></span><span style="font-family: 'Bakbak One', serif;color: #94c21c;">HKeller</span></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-5" style="color: #94c21c;"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-5">
+                <ul class="navbar-nav ms-auto">
+                </ul><a class="btn btn-secondary ms-md-2" role="button" href="/login.php" style="background: #94c21c;color: rgb(26,57,45);">Entrar</a>
+            </div>
+        </div>
+    </nav>
+    <div class="container py-4 py-xl-5" style="background: #1a392d;">
+        <div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-xl-3">
+            <div class="col" style="background: #1a392d;">
+                <div class="card" style="background: #1a392d;"><img class="card-img-top w-100 d-block fit-cover" style="height: 200px;" src="/assets/img/resource/caoguia1.png">
+                    <div class="card-body p-4" style="background: #326d56;">
+                        <h4 class="card-title">Cão Guia</h4>
+                        <p class="card-text">Um cão guia é um tipo de cão de assistência. É um animal adestrado para guiar pessoas cegas ou com deficiência visual grave e auxiliá-los nas tarefas diárias.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="background: #1a392d;"><img class="card-img-top w-100 d-block fit-cover" style="height: 200px;" src="/assets/img/resource/caoguia2.png">
+                    <div class="card-body p-4" style="background: #326d56;">
+                        <h4 class="card-title">Inteligentes &amp; Treinados</h4>
+                        <p class="card-text">Durante a condução dos deficientes visuais, o cão deve ter a capacidade de discernir eventuais perigos devidos a obstáculos ou outros, o que requer cães inteligentes e com treino rigoroso.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="background: #1a392d;"><img class="card-img-top w-100 d-block fit-cover" style="height: 200px;" src="/assets/img/resource/caoguia3.png">
+                    <div class="card-body p-4" style="background: #326d56;">
+                        <h4 class="card-title">Ressocialização</h4>
+                        <p class="card-text">A Ressocialização é a primeira etapa do Treinamento, quando o cão guia chega cerca de 2 a 3 meses de vida, vai para casa de uma família voluntária, se acostuma com a rotina e testa suas habilidades.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

@@ -1,6 +1,6 @@
 <?php
 
-function OpenCon() {
+function openCon() {
     $dbhost = "localhost";
     $dbuser = "root";
     $dbpass = "root";
@@ -10,7 +10,8 @@ function OpenCon() {
     return $conn;
 }
 
-function CloseCon($conn) {
+function closeCon($conn) {
     $conn->close();
 }
+
 ?>
